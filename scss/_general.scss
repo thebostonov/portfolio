@@ -8,15 +8,18 @@ html{
 *::after,
 *::before{
     box-sizing: inherit;
+    text-decoration: none;
+    list-style: none;
 }
 
 body{
     display: flex;
     flex-direction: column;
     height: 100%;
-    font-family: "Arial", sans-serif;
+    font-family: "Inter 400", sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    background-color: #E5E5E5;
 }
 
 img{

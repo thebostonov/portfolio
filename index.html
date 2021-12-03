@@ -1,24 +1,749 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>SCSS STARTER</title>
+    <title>MYPortfoilo</title>
 </head>
+
 <body>
-    <!-- HEADER -->
-    <header class="header">
-
-    </header>
-    <!-- MAIN -->
-    <main class="main">
-
-    </main>
-    <!-- FOOTER -->
-    <footer class="footer">
-
-    </footer>
+    <div class="allwrapper container">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header__container">
+                <a class="header__logo-link" href="#"><img class="header__logo" src="./images/Contrast.png"
+                        alt="Contrast" width="30" height="30"></a>
+                <nav class="sitenav">
+                    <ul class="sitenav__list">
+                        <li class="sitenav__item">
+                            <a class="sitenav__link" href="#">
+                                <div class="information">
+                                    <p class="information__desc">Home</p>
+                                    <span class="information__under"></span>
+                                </div>
+                                <img src="./images/Home.png" alt="Home" width="40" height="40">
+                            </a>
+                        </li>
+                        <li class="sitenav__item"><a class="sitenav__link" href="#"><img src="./images/Service.png"
+                                    alt="Service" width="40" height="40"></a></li>
+                        <li class="sitenav__item"><a class="sitenav__link" href="#"><img src="./images/Cv.png" alt="CV"
+                                    width="40" height="40"></a></li>
+                        <li class="sitenav__item"><a class="sitenav__link" href="#"><img src="./images/Portfolio.png"
+                                    alt="Portfolio" width="40" height="40"></a></li>
+                        <li class="sitenav__item"><a class="sitenav__link" href="#"><img src="./images/Blog.png"
+                                    alt="Blog" width="40" height="40"></a></li>
+                        <li class="sitenav__item"><a class="sitenav__link" href="#"><img src="./images/Contact.png"
+                                    alt="Contact" width="40" height="40"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- MAIN -->
+        <main class="main">
+            <div class="main__container">
+                <section class="hero">
+                    <div class="hero__textbox">
+                        <h1 class="hero__heading">
+                            I’m Zokirbek Bostons <span>Front-end</span> Developer
+                        </h1>
+                        <p class="hero__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat
+                            lobortis. Natoque rutrum semper sed suspendisse nunc lectus.
+                        </p>
+                        <div>
+                            <button class="hire-me"><span class="hire-me__text">Hire me</span><img
+                                    class="hire-me__vector" src="./images/hireme-vector.svg" alt="vector" width="16"
+                                    height="16">
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <section class="services">
+                    <div class="textbox">
+                        <h2 class="textbox__heading">MY SERVICES</h2>
+                        <p class="textbox__desc">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. lorem ipsum
+                        </p>
+                    </div>
+                    <ul class="services__list">
+                        <li class="services__item">
+                            <div class="services__img-wrapper">
+                                <img class="services__img" src="./images/coding.png" alt="Coding" width="68"
+                                    height="68">
+                            </div>
+                            <h3 class="services__item-heading">Web Development</h3>
+                            <p class="services__item-desc">Blog, E-commerce</p>
+                        </li>
+                        <li class="services__item">
+                            <div class="services__img-wrapper">
+                                <img class="services__img" src="./images/illustration.png" alt="illustration" width="68"
+                                    height="68">
+                            </div>
+                            <h3 class="services__item-heading">UI/UX design</h3>
+                            <p class="services__item-desc">Mobile app, Website design</p>
+                        </li>
+                        <li class="services__item">
+                            <div class="services__img-wrapper">
+                                <img class="services__img" src="./images/microphone.png" alt="microphone" width="74"
+                                    height="74">
+                            </div>
+                            <h3 class="services__item-heading">Sound Design</h3>
+                            <p class="services__item-desc">Voice Over, Beat Making</p>
+                        </li>
+                        <li class="services__item">
+                            <div class="services__img-wrapper">
+                                <img class="services__img" src="./images/game-development.png" alt="game-development"
+                                    width="74" height="74">
+                            </div>
+                            <h3 class="services__item-heading">Game Design</h3>
+                            <p class="services__item-desc">Character Design, Props & Objects</p>
+                        </li>
+                        <li class="services__item">
+                            <div class="services__img-wrapper">
+                                <img class="services__img" src="./images/Photographer.png" alt="Photographer" width="78"
+                                    height="78">
+                            </div>
+                            <h3 class="services__item-heading">Photography</h3>
+                            <p class="services__item-desc">Portrait, Product Photography</p>
+                        </li>
+                        <li class="services__item">
+                            <h3 class="services__item-heading">Advertising</h3>
+                            <p class="services__item-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vitae nulla diam in ac dictum a urna viverra morbi. </p>
+                            <button type="button" class="services__btn"><span>ORDER NOW</span> <img
+                                    src="./images/servicesbtn.png" alt="service button" width="20" height="20"></button>
+                        </li>
+                    </ul>
+                </section>
+                <section class="price">
+                    <div class="textbox">
+                        <h1 class="textbox__heading">
+                            Price plans
+                        </h1>
+                        <p class="textbox__desc">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. lorem ipsum
+                        </p>
+                    </div>
+                    <ul class="price__list">
+                        <li class="price__item">
+                            <h3 class="price__item-heading">
+                                Silver
+                            </h3>
+                            <div class="price__item-cost">
+                                <p class="price__item-desc">
+                                    <span class="price__item-usd">$0.00</span>
+                                    /hour
+                                </p>
+                                For most businesses that want to
+                                optimize web queries
+                            </div>
+                            <div class="price__kinds">
+                                <p class="price__kinds-item"><img src="./images/Check.png" alt="Check" width="25"
+                                        height="24">UI Design</p>
+                                <p class="price__kinds-item"><img src="./images/Check.png" alt="Check" width="25"
+                                        height="24">Web Development</p>
+                                <p class="price__kinds-item"><img src="./images/close.png" alt="Close" width="25"
+                                        height="24">Logo Design</p>
+                                <p class="price__kinds-item"><img src="./images/close.png" alt="Close" width="25"
+                                        height="24">Seo Optimization</p>
+                                <p class="price__kinds-item"><img src="./images/close.png" alt="Close" width="25"
+                                        height="24">WordPress Integration</p>
+                                <p class="price__kinds-item"><img src="./images/close.png" alt="Close" width="25"
+                                        height="24">5 Websites</p>
+                                <p class="price__kinds-item"><img src="./images/close.png" alt="Close" width="25"
+                                        height="24">Unlimited User</p>
+                                <p class="price__kinds-item"><img src="./images/close.png" alt="Close" width="25"
+                                        height="24">20 GB Bandwith</p>
+                            </div>
+                            <div class="price__button"><button type="button" class="price__btn">ORDER NOW</button></div>
+                        </li>
+                        <li class="price__item">
+                            <div class="price__item-top">
+                                Most Popular
+                            </div>
+                            <h3 class="price__item-heading">
+                                Gold
+                            </h3>
+                            <div class="price__item-cost">
+                                <p class="price__item-desc">
+                                    <span class="price__item-usd">$50.00</span>
+                                    /hour
+                                </p>
+                                For most businesses that want to
+                                optimize web queries
+                            </div>
+                            <div class="price__kinds">
+                                <p class="price__kinds-item"><img src="./images/Check.png" alt="Check" width="25"
+                                        height="24">UI Design</p>
+                                <p class="price__kinds-item"><img src="./images/Check.png" alt="Check" width="25"
+                                        height="24">Web Development</p>
+                                <p class="price__kinds-item"><img src="./images/Check.png" alt="Close" width="25"
+                                        height="24">Logo Design</p>
+                                <p class="price__kinds-item"><img src="./images/Check.png" alt="Close" width="25"
+                                        height="24">Seo Optimization</p>
+                                <p class="price__kinds-item"><img src="./images/close.png" alt="Close" width="25"
+                                        height="24">WordPress Integration</p>
+                                <p class="price__kinds-item"><img src="./images/close.png" alt="Close" width="25"
+                                        height="24">5 Websites</p>
+                                <p class="price__kinds-item"><img src="./images/close.png" alt="Close" width="25"
+                                        height="24">Unlimited User</p>
+                                <p class="price__kinds-item"><img src="./images/close.png" alt="Close" width="25"
+                                        height="24">20 GB Bandwith</p>
+                            </div>
+                            <div class="price__button"><button type="button" class="price__btn price__btn--gold">ORDER
+                                    NOW</button></div>
+                        </li>
+                        <li class="price__item">
+                            <h3 class="price__item-heading">
+                                Dimond
+                            </h3>
+                            <div class="price__item-cost">
+                                <p class="price__item-desc">
+                                    <span class="price__item-usd">$80.00</span>
+                                    /hour
+                                </p>
+                                For most businesses that want to
+                                optimize web queries
+                            </div>
+                            <div class="price__kinds">
+                                <p class="price__kinds-item"><img src="./images/Check.png" alt="Check" width="25"
+                                        height="24">UI Design</p>
+                                <p class="price__kinds-item"><img src="./images/Check.png" alt="Check" width="25"
+                                        height="24">Web Development</p>
+                                <p class="price__kinds-item"><img src="./images/Check.png" alt="Close" width="25"
+                                        height="24">Logo Design</p>
+                                <p class="price__kinds-item"><img src="./images/Check.png" alt="Close" width="25"
+                                        height="24">Seo Optimization</p>
+                                <p class="price__kinds-item"><img src="./images/Check.png" alt="Close" width="25"
+                                        height="24">WordPress Integration</p>
+                                <p class="price__kinds-item"><img src="./images/Check.png" alt="Close" width="25"
+                                        height="24">5 Websites</p>
+                                <p class="price__kinds-item"><img src="./images/Check.png" alt="Close" width="25"
+                                        height="24">Unlimited User</p>
+                                <p class="price__kinds-item"><img src="./images/Check.png" alt="Close" width="25"
+                                        height="24">20 GB Bandwith</p>
+                            </div>
+                            <div class="price__button"><button type="button" class="price__btn">ORDER NOW</button></div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="recommend">
+                    <div class="textbox">
+                        <h2 class="textbox__heading">Recommendations</h2>
+                        <p class="textbox__desc">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. lorem ipsum
+                        </p>
+                    </div>
+                    <ul class="recommend__list">
+                        <li class="recommend__item">
+                            <div class="recommend__item-stars">
+                                <img src="./images/Star.png" alt="star" width="18" height="17">
+                                <img src="./images/Star.png" alt="star" width="18" height="17">
+                                <img src="./images/Star.png" alt="star" width="18" height="17">
+                                <img src="./images/Star.png" alt="star" width="18" height="17">
+                                <img src="./images/Star.png" alt="star" width="18" height="17">
+                            </div>
+                            <h3 class="recommend__item-heading">Great Quality!</h3>
+                            <p class="recommend__item-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a
+                                urna viverra morbi. Morbi donec amet....
+                            </p>
+                            <div class="recommend__people">
+                                <img src="./images/james.png" alt="james" width="80" height="80">
+                                <div class="recommend__people-info">
+                                    <span class="recommend__people-name">James Gouse</span>
+                                    <span class="recommend__people-job">Graphic Designer</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="recommend__item">
+                            <div class="recommend__item-stars">
+                                <img src="./images/Star.png" alt="star" width="18" height="17">
+                                <img src="./images/Star.png" alt="star" width="18" height="17">
+                                <img src="./images/Star.png" alt="star" width="18" height="17">
+                                <img src="./images/Star.png" alt="star" width="18" height="17">
+                                <img src="./images/Star.png" alt="star" width="18" height="17">
+                            </div>
+                            <h3 class="recommend__item-heading">Amazing work!</h3>
+                            <p class="recommend__item-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a
+                                urna viverra morbi. Morbi donec amet....
+                            </p>
+                            <div class="recommend__people">
+                                <img src="./images/tiana.png" alt="james" width="80" height="80">
+                                <div class="recommend__people-info">
+                                    <span class="recommend__people-name">Tiana Philips</span>
+                                    <span class="recommend__people-job">Photographer</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="recommend__item">
+                            <div class="recommend__item-stars">
+                                <img src="./images/Star.png" alt="star" width="18" height="17">
+                                <img src="./images/Star.png" alt="star" width="18" height="17">
+                                <img src="./images/Star.png" alt="star" width="18" height="17">
+                                <img src="./images/Star.png" alt="star" width="18" height="17">
+                                <img src="./images/Star.png" alt="star" width="18" height="17">
+                            </div>
+                            <h3 class="recommend__item-heading">Great Quality!</h3>
+                            <p class="recommend__item-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a
+                                urna viverra morbi. Morbi donec amet....
+                            </p>
+                            <div class="recommend__people">
+                                <img src="./images/talan.png" alt="james" width="80" height="80">
+                                <div class="recommend__people-info">
+                                    <span class="recommend__people-name">Talan Westervelt</span>
+                                    <span class="recommend__people-job">Business man</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="circles">
+                        <img src="./images/command.png" alt="circles" width="50" height="10">
+                    </div>
+                </section>
+                <section class="edu">
+                    <div class="textbox">
+                        <h2 class="textbox__heading">Education</h2>
+                        <p class="textbox__desc">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. lorem ipsum
+                        </p>
+                    </div>
+                    <ul class="edu__list">
+                        <li class="edu__item">
+                            <div class="edu__graduate">
+                                <h3 class="edu__graduate-heading">University of Toronto</h3>
+                                <p class="edu__graduate-desc">
+                                    <span class="edu__graduate-text">Student</span>
+                                    <span class="edu__graduate-date">Jan 1016 - Dec 2021</span>
+                                </p>
+                            </div>
+                            <div class="edu__graduate-info">
+                                <h3 class="edu__graduate-info-title">Certificate of web training</h3>
+                                <p class="edu__graduate-info-desc">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut
+                                    faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
+                                    Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim
+                                    neque eget dui.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="edu__item">
+                            <div class="edu__graduate">
+                                <h3 class="edu__graduate-heading">Programming Course</h3>
+                                <p class="edu__graduate-desc">
+                                    <span class="edu__graduate-text">Student</span>
+                                    <span class="edu__graduate-date">Jan 1016 - Dec 2021</span>
+                                </p>
+                            </div>
+                            <div class="edu__graduate-info">
+                                <h3 class="edu__graduate-info-title">Certificate of web training</h3>
+                                <p class="edu__graduate-info-desc">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut
+                                    faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
+                                    Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim
+                                    neque eget dui.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="edu__item">
+                            <div class="edu__graduate">
+                                <h3 class="edu__graduate-heading">Web developer courses</h3>
+                                <p class="edu__graduate-desc">
+                                    <span class="edu__graduate-text">Student</span>
+                                    <span class="edu__graduate-date">Jan 1016 - Dec 2021</span>
+                                </p>
+                            </div>
+                            <div class="edu__graduate-info">
+                                <h3 class="edu__graduate-info-title">Certificate of web training</h3>
+                                <p class="edu__graduate-info-desc">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut
+                                    faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
+                                    Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim
+                                    neque eget dui.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <!-- WORK HISTORY SECTION -->
+                <section class="edu">
+                    <div class="textbox">
+                        <h2 class="textbox__heading">Work History</h2>
+                        <p class="textbox__desc">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. lorem ipsum
+                        </p>
+                    </div>
+                    <ul class="edu__list">
+                        <li class="edu__item">
+                            <div class="edu__graduate">
+                                <h3 class="edu__graduate-heading">Lead Web Designer</h3>
+                                <p class="edu__graduate-desc">
+                                    <span class="edu__graduate-text">Student</span>
+                                    <span class="edu__graduate-date">Jan 1016 - Dec 2021</span>
+                                </p>
+                            </div>
+                            <div class="edu__graduate-info">
+                                <h3 class="edu__graduate-info-title">Certificate of web training</h3>
+                                <p class="edu__graduate-info-desc">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut
+                                    faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
+                                    Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim
+                                    neque eget dui.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="edu__item">
+                            <div class="edu__graduate">
+                                <h3 class="edu__graduate-heading">Junior Web Designer</h3>
+                                <p class="edu__graduate-desc">
+                                    <span class="edu__graduate-text">Student</span>
+                                    <span class="edu__graduate-date">Jan 1016 - Dec 2021</span>
+                                </p>
+                            </div>
+                            <div class="edu__graduate-info">
+                                <h3 class="edu__graduate-info-title">Certificate of web training</h3>
+                                <p class="edu__graduate-info-desc">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut
+                                    faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
+                                    Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim
+                                    neque eget dui.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="edu__item">
+                            <div class="edu__graduate">
+                                <h3 class="edu__graduate-heading">Senior Web Designer</h3>
+                                <p class="edu__graduate-desc">
+                                    <span class="edu__graduate-text">Student</span>
+                                    <span class="edu__graduate-date">Jan 1016 - Dec 2021</span>
+                                </p>
+                            </div>
+                            <div class="edu__graduate-info">
+                                <h3 class="edu__graduate-info-title">Certificate of web training</h3>
+                                <p class="edu__graduate-info-desc">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut
+                                    faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
+                                    Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim
+                                    neque eget dui.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="portfolio">
+                    <div class="textbox">
+                        <h2 class="textbox__heading">Portfolio</h2>
+                        <p class="textbox__desc">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. lorem ipsum
+                        </p>
+                    </div>
+                    <ul class="portfolio__list">
+                        <li class="portfolio__item"><a class="portfolio__link" href="#">All categories</a></li>
+                        <li class="portfolio__item"><a class="portfolio__link" href="#">UI Design</a></li>
+                        <li class="portfolio__item"><a class="portfolio__link" href="#">Web Templates</a></li>
+                        <li class="portfolio__item"><a class="portfolio__link" href="#">Logo</a></li>
+                        <li class="portfolio__item"><a class="portfolio__link" href="#">Branding</a></li>
+                    </ul>
+                    <ul class="portfolio__projects">
+                        <li class="portfolio__project">
+                            <div class="portfolio__project-link"><img class="portfolio__project-img"
+                                    src="./images/Image.png" alt="Image" width="310" height="300"></div>
+                        </li>
+                        <li class="portfolio__project">
+                            <div class="portfolio__project-link img2"><img class="portfolio__project-img"
+                                    src="./images/Image.png" alt="Image" width="310" height="300"></div>
+                        </li>
+                        <li class="portfolio__project">
+                            <div class="portfolio__project-link img3"><img class="portfolio__project-img"
+                                    src="./images/Image.png" alt="Image" width="310" height="300"></div>
+                        </li>
+                        <li class="portfolio__project">
+                            <div class="portfolio__project-link img4"><img class="portfolio__project-img"
+                                    src="./images/Image.png" alt="Image" width="310" height="300"></div>
+                        </li>
+                        <li class="portfolio__project">
+                            <div class="portfolio__project-link img5"><img class="portfolio__project-img"
+                                    src="./images/Image.png" alt="Image" width="310" height="300"></div>
+                        </li>
+                        <li class="portfolio__project">
+                            <div class="portfolio__project-link img6"><img class="portfolio__project-img"
+                                    src="./images/Image.png" alt="Image" width="310" height="300"></div>
+                        </li>
+                        <li class="portfolio__project">
+                            <div class="portfolio__project-link img7"><img class="portfolio__project-img"
+                                    src="./images/Image.png" alt="Image" width="310" height="300"></div>
+                        </li>
+                        <li class="portfolio__project">
+                            <div class="portfolio__project-link img8"><img class="portfolio__project-img"
+                                    src="./images/Image.png" alt="Image" width="310" height="300"></div>
+                        </li>
+                        <li class="portfolio__project">
+                            <div class="portfolio__project-link img9"><img class="portfolio__project-img"
+                                    src="./images/Image.png" alt="Image" width="310" height="300"></div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="blog">
+                    <div class="textbox">
+                        <h2 class="textbox__heading">Blog</h2>
+                        <p class="textbox__desc">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. lorem ipsum
+                        </p>
+                    </div>
+                    <ul class="blog__list">
+                        <li class="blog__item">
+                            <img src="./images/project-img1.png" alt="Project" width="310" height="300">
+                            <div class="blog__item-textbox">
+                                <h3 class="blog__item-heading">How to make web tempates</h3>
+                                <p class="blog__item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Vitae nulla diam in ac dictum a urna</p>
+                                <a class="blog__item-link" href="#">Learn more <img src="./images/servicesbtn.png"
+                                        alt="vector"></a>
+                            </div>
+                        </li>
+                        <li class="blog__item">
+                            <img src="./images/project-img2.png" alt="Project" width="310" height="300">
+                            <div class="blog__item-textbox">
+                                <h3 class="blog__item-heading">Make Business card</h3>
+                                <p class="blog__item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Vitae nulla diam in ac dictum a urna</p>
+                                <a class="blog__item-link" href="#">Learn more <img src="./images/servicesbtn.png"
+                                        alt="vector"></a>
+                            </div>
+                        </li>
+                        <li class="blog__item">
+                            <img src="./images/project-img3.png" alt="Project" width="310" height="300">
+                            <div class="blog__item-textbox">
+                                <h3 class="blog__item-heading">How to make Flyer Design</h3>
+                                <p class="blog__item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Vitae nulla diam in ac dictum a urna</p>
+                                <a class="blog__item-link" href="#">Learn more <img src="./images/servicesbtn.png"
+                                        alt="vector"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="info">
+                    <div class="info__left">
+                        <h2 class="info__left-heading">Leave us your info</h2>
+                        <form action="https://echo.htmlacademy.ru/" method="post" class="info__form">
+                            <label class="info__label">
+                                Your Full Name
+                                <input class="info__input" type="text" name="user_name" autocomplete="off" required>
+                            </label>
+                            <label class="info__label">
+                                Your Email
+                                <input class="info__input" type="email" name="user_email" autocomplete="off" required>
+                            </label>
+                            <label class="info__label">
+                                Subject
+                                <input class="info__input" type="text" name="user_subject" autocomplete="off" required>
+                            </label>
+                            <label class="info__label">
+                                Your Message
+                                <textarea class="info__textarea" name="user_massage" cols="30" rows="10"></textarea>
+                            </label>
+                            <button class="info__btn" type="submit">SEND MESSAGE</button>
+                        </form>
+                    </div>
+                    <div class="info__right">
+                        <h2 class="info__right-heading">Contact information</h2>
+                        <ul class="info__right-list">
+                            <li class="info__right-item">
+                                <div class="info__right-imgback"><img class="info__right-img"
+                                        src="./images/location.png" alt="Location" width="18" height="18"></div>
+                                <div class="info__right-text">
+                                    <h4 class="info__right-headline">Country:</h4>
+                                    <p class="info__right-desc">Uzbekistan</p>
+                                </div>
+                                <div class="info__right-text">
+                                    <h4 class="info__right-headline">City:</h4>
+                                    <p class="info__right-desc">Khorezm</p>
+                                </div>
+                                <div class="info__right-text">
+                                    <h4 class="info__right-headline">Streat:</h4>
+                                    <p class="info__right-desc">41 Gulob, Bog'ot</p>
+                                </div>
+                            </li>
+                            <li class="info__right-item">
+                                <div class="info__right-imgback"><img class="info__right-img" src="./images/mail.png"
+                                        alt="Email" width="18" height="18"></div>
+                                <div class="info__right-text">
+                                    <h4 class="info__right-headline">Email:</h4>
+                                    <p class="info__right-desc">bbostonov@gmail.com</p>
+                                </div>
+                                <div class="info__right-text">
+                                    <h4 class="info__right-headline">Skype:</h4>
+                                    <p class="info__right-desc">@zokirbekboston</p>
+                                </div>
+                                <div class="info__right-text">
+                                    <h4 class="info__right-headline">Telegram:</h4>
+                                    <p class="info__right-desc">@Zokirbek_dev</p>
+                                </div>
+                            </li>
+                            <li class="info__right-item">
+                                <div class="info__right-imgback"><img class="info__right-img" src="./images/Mobile.png"
+                                        alt="Mobile" width="18" height="18"></div>
+                                <div class="info__right-text">
+                                    <h4 class="info__right-headline">Support services:</h4>
+                                    <p class="info__right-desc">3158118</p>
+                                </div>
+                                <div class="info__right-text">
+                                    <h4 class="info__right-headline">Office:</h4>
+                                    <p class="info__right-desc">+99 (899) 565 55 05</p>
+                                </div>
+                                <div class="info__right-text">
+                                    <h4 class="info__right-headline">Personal:</h4>
+                                    <p class="info__right-desc">+99 (899) 565 55 07</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <div class="my__iframe" style="position:relative;overflow:hidden;"><a
+                        href="https://yandex.uz/maps?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Yandex.Xarita</a><a
+                        href="https://yandex.uz/maps/geo/1590108195/?l=stv%2Csta&ll=60.812069%2C41.351813&utm_medium=mapframe&utm_source=maps&z=14.18"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Bogʻot shaharchasi —
+                        Yandex.Xarita</a><iframe src="https://yandex.uz/map-widget/v1/-/CCUun8r8sB" width="100%"
+                        height="300" frameborder="off" allowfullscreen="true" style="position:relative;"></iframe></div>
+                <!-- FOOTER -->
+                <footer class="footer">
+                    <p class="footer__desc">2021 All Rights Reserved.Ojjomedia</p>
+                </footer>
+            </div>
+        </main>
+        <section class="myinfo">
+            <div class="myinfo__container">
+                <div class="myinfo__local">
+                    <div class="myinfo__myimg">
+                        <span class="online__circle"></span>
+                    </div>
+                    <h3 class="myinfo__heading">Zokirbek Bostons</h3>
+                    <p class="myinfo__desc">Font-end Developer</p>
+                    <div class="myinfo__media">
+                        <a class="myinfo__media-img" href="#"><img src="./images/Facebook.png" alt="Facebook" width="24"
+                                height="24"></a>
+                        <a class="myinfo__media-img" href="#"><img src="./images/Instagram.png" alt="Instagram"
+                                width="24" height="24"></a>
+                        <a class="myinfo__media-img" href="#"><img src="./images/Twitter.png" alt="Twitter" width="24"
+                                height="24"></a>
+                        <a class="myinfo__media-img" href="#"><img src="./images/Linkeding.png" alt="Linkeding"
+                                width="24" height="24"></a>
+                        <a class="myinfo__media-img" href="#"><img src="./images/Youtube.png" alt="Youtube" width="24"
+                                height="24"></a>
+                        <a class="myinfo__media-img" href="#"><img src="./images/Dribbble.png" alt="Dribbble" width="24"
+                                height="24"></a>
+                    </div>
+                    <ul class="myinfo__list">
+                        <li class="myinfo__item">
+                            <span class="myinfo__rtext">Age:</span>
+                            <span class="myinfo__ltext">19</span>
+                        </li>
+                        <li class="myinfo__item">
+                            <span class="myinfo__rtext">Residence:</span>
+                            <span class="myinfo__ltext">BD</span>
+                        </li>
+                        <li class="myinfo__item">
+                            <span class="myinfo__rtext">Freelance:</span>
+                            <span class="myinfo__ltext myinfo__ltext--green">Available</span>
+                        </li>
+                        <li class="myinfo__item">
+                            <span class="myinfo__rtext">Address:</span>
+                            <span class="myinfo__ltext">Bog'ot,Khorezm</span>
+                        </li>
+                    </ul>
+                    <ul class="myinfo__skills-list">
+                        <li class="myinfo__skills-item">
+                            <h3 class="myinfo__skills-heading">Languages</h3>
+                            <div class="myinfo__skills-textwrapper">
+                                <span class="myinfo__skills-rtext">Uzbek</span>
+                                <span class="myinfo__skills-ltext">100%</span>
+                            </div>
+                            <span class="yellow-line"></span>
+                            <div class="myinfo__skills-textwrapper">
+                                <span class="myinfo__skills-rtext">English</span>
+                                <span class="myinfo__skills-ltext">80%</span>
+                            </div>
+                            <span class="yellow-line yellow-line--eighty"></span>
+                            <div class="myinfo__skills-textwrapper">
+                                <span class="myinfo__skills-rtext">Russian</span>
+                                <span class="myinfo__skills-ltext">60%</span>
+                            </div>
+                            <span class="yellow-line yellow-line--sixty"></span>
+                        </li>
+                        <li class="myinfo__skills-item">
+                            <h3 class="myinfo__skills-heading">Skills</h3>
+                            <div class="myinfo__skills-textwrapper">
+                                <span class="myinfo__skills-rtext">Html</span>
+                                <span class="myinfo__skills-ltext">90%</span>
+                            </div>
+                            <span class="yellow-line yellow-line--ninety"></span>
+                            <div class="myinfo__skills-textwrapper">
+                                <span class="myinfo__skills-rtext">CSS</span>
+                                <span class="myinfo__skills-ltext">85%</span>
+                            </div>
+                            <span class="yellow-line yellow-line--eighty-five"></span>
+                            <div class="myinfo__skills-textwrapper">
+                                <span class="myinfo__skills-rtext">Js</span>
+                                <span class="myinfo__skills-ltext">80%</span>
+                            </div>
+                            <span class="yellow-line yellow-line--eighty"></span>
+                            <div class="myinfo__skills-textwrapper">
+                                <span class="myinfo__skills-rtext">PHP</span>
+                                <span class="myinfo__skills-ltext">75%</span>
+                            </div>
+                            <span class="yellow-line yellow-line--seventy-five"></span>
+                            <div class="myinfo__skills-textwrapper">
+                                <span class="myinfo__skills-rtext">WordPress</span>
+                                <span class="myinfo__skills-ltext">85%</span>
+                            </div>
+                            <span class="yellow-line yellow-line--eighty-five"></span>
+                        </li>
+                    </ul>
+                    <ul class="extra-skills__list">
+                        <li class="extra-skills__item">
+                            <h3 class="myinfo__skills__heading">Extra Skills</h3>
+                            <div class="exrta-skills__textbox">
+                                <img class="exrta-skills__textbox-img" src="./images/extra-icon.png" alt="Extra Icon"
+                                    width="15" height="15">
+                                <span class="exrta-skills__textbox-desc">Bootstrap, Materialize</span>
+                            </div>
+                            <div class="exrta-skills__textbox">
+                                <img class="exrta-skills__textbox-img" src="./images/extra-icon.png" alt="Extra Icon"
+                                    width="15" height="15">
+                                <span class="exrta-skills__textbox-desc">Stylus, Sass, Less</span>
+                            </div>
+                            <div class="exrta-skills__textbox">
+                                <img class="exrta-skills__textbox-img" src="./images/extra-icon.png" alt="Extra Icon"
+                                    width="15" height="15">
+                                <span class="exrta-skills__textbox-desc">Gulp, Webpack, Grunt</span>
+                            </div>
+                            <div class="exrta-skills__textbox">
+                                <img class="exrta-skills__textbox-img" src="./images/extra-icon.png" alt="Extra Icon"
+                                    width="15" height="15">
+                                <span class="exrta-skills__textbox-desc">GIT Knowledge</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="myinfo__btn" type="button">DOWNLOAD CV<img class="myinfo__btn-icon"
+                            src="./images/down.png" alt="Download" width="14" height="16"></button>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,55 @@
+.sitenav{
+    display: flex;
+    flex-direction: column;
+    &__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    &__item{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        padding: 0px 12.5px;
+        margin-bottom: 45px;
+    }
+    &__link{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        
+    }
+    .information {
+        display: none;
+        position: relative;
+        padding: 6px 15px;
+        padding-bottom: 12px;
+        background: #2B2B2B;
+        margin-bottom: 20px;
+        border-radius:30px;
+    }
+    
+    .information__desc {
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter 500';
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+    .information__under {
+        display: inline;
+        width: 18px;
+        height: 18px;
+        transform: rotate(-45deg);
+        background: #2B2B2B;
+        position: absolute;
+        left: 23px;
+        bottom: -9px;
+    }
+    &__link:hover .information{
+       display: inline-block;
+    }
+}

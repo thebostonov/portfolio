@@ -1,0 +1,21 @@
+.hire-me{
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+    background: #FFB400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    &__text{
+        font-family: 'Inter 500';
+        font-size: 16px;
+        line-height: 19px;
+        color: #2B2B2B;   
+    }
+    &__vector{
+        width: 16px;
+        height: 16px;
+        object-fit: contain;
+        margin-left: 10px;
+    }
+}
